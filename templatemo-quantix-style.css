@@ -1462,3 +1462,9 @@
   padding: 12px 24px;
   cursor: pointer;
 }
+.quick-notes-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
