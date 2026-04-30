@@ -1463,8 +1463,8 @@
   cursor: pointer;
 }
 .quick-notes-img {
-    width: 50%;
-    max-width: 300px;
+    width: 5%;
+    max-width: 150px;
     height: auto;
     display: block;
 }
