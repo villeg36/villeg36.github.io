@@ -1419,3 +1419,46 @@
             .replay-cursor { animation: none; top: 70px; left: 100px; }
             @keyframes panelIn { from { opacity: 1; transform: none; } }
         }
+
+        /* CONTACT SECTION */
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* FORM WRAPPER (centers everything) */
+.contact-form-wrapper {
+  max-width: 500px;
+  margin: 0 auto; /* THIS centers it horizontally */
+}
+
+/* FORM LAYOUT */
+.contact-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* INPUTS + TEXTAREA */
+.contact-form-wrapper input,
+.contact-form-wrapper textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+/* TEXTAREA HEIGHT */
+.contact-form-wrapper textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* BUTTON */
+.contact-form-wrapper button {
+  align-self: center; /* centers button inside flex */
+  padding: 12px 24px;
+  cursor: pointer;
+}
